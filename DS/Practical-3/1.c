@@ -3,6 +3,8 @@ Define a structure Book which has members that include book_name, author_name,
 price and pages. Create a structure pointer variable which collects book information
 from the user and prints the book information for book_name starting with ‘D’. Also
 create a function which displays all book information using pointers.
+
+
 */
 
 #include<stdio.h>
