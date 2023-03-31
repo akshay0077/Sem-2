@@ -20,6 +20,7 @@ int main()
 
     // Allocating memory dynamically for first array
     arr1 = (int *)malloc(n * sizeof(int));
+
     if (arr1 == NULL)
     {
         printf("Memory allocation failed!\n");
@@ -40,6 +41,7 @@ int main()
 
     // Allocating memory dynamically for second array
     arr2 = (int *)realloc(arr1, m * sizeof(int));
+    
     if (arr2 == NULL)
     {
         printf("Memory allocation failed!\n");

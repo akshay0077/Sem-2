@@ -10,9 +10,7 @@ int checkEvenOdd(int num) {
 
 int main() {
     int num;
-    int (*check)(int);
-
-    check = &checkEvenOdd;
+    int (*check)(int)= &checkEvenOdd;
 
     printf("Enter a number: ");
     scanf("%d", &num);

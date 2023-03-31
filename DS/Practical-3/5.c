@@ -11,7 +11,9 @@ int main()
 	int N,*p,i,sum=0;
 	printf ("\n Enter Size Of Array=") ;
 	scanf ("%d",&N) ;
+
 	p=(int *)malloc(N*sizeof(int));
+	
 	if (p==NULL)
 	{
 		printf ("\n Error In Memory Allocation. ..") ;
